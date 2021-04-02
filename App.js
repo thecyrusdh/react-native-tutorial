@@ -8,6 +8,11 @@ export default function App() {
       <View style={styles.header}>
         <Text style={styles.boldText}>Hello World</Text>
       </View>
+      <View style={styles.body}>
+        <Text>Lorem ipsum dolor sit amet.</Text>
+        <Text>Lorem ipsum dolor sit amet.</Text>
+        <Text>Lorem ipsum dolor sit amet.</Text>
+      </View>
 
    
     </View>
@@ -27,5 +32,9 @@ const styles = StyleSheet.create({
   },
   boldText: {
     fontWeight: 'bold'
+  },
+  body: {
+    backgroundColor: 'yellow',
+    padding:20
   }
 });
