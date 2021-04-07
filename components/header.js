@@ -5,7 +5,7 @@ export default function Header()  {
 
 return (
     <View style={styles.header}>
-        <Text style={style.title}>My todos</Text>
+        <Text style={styles.title}>My todos</Text>
         
     </View>
 
